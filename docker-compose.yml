@@ -1,0 +1,20 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres:15.4-bullseye
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: secret
+    ports:
+      - "5432:5432"
+  pgadmin4:
+    image: dpage/pgadmin4:7.6
+    environment:
+      PGADMIN_DEFAULT_PASSWORD: secret
+      PGADMIN_DEFAULT_EMAIL: none@some.com
+    ports:
+      - "8001:80"
+       

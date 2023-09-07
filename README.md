@@ -1,2 +1,7 @@
+# Devorun
+
+for discussions that matter
+
 # nntpisnotdead
-Threaded forum, NNTP-style
+Threaded forum, aiming to revive goog old days of NNTP.
+
