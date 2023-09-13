@@ -7,3 +7,10 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4"
+diesel = { version = "2.1.1", features = ["chrono", "postgres"] }
+diesel-async = { version = "0.4.1", features = ["postgres"] }
+env-file-reader = "0.3.0"
+env_logger = "0.10.0"
+log = "0.4.20"
+serde = { version = "1.0.188", features = ["serde_derive", "derive"] }
+toml = "0.7.8"
