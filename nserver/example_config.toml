@@ -4,6 +4,8 @@ port=5432
 username="username"
 password="password"
 database="devorum"
+#default to amount of cpu cores
+pool_size = 0
 
 [server]
 port=8002
